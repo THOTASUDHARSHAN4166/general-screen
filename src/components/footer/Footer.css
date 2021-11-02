@@ -1,0 +1,16 @@
+.footer{
+    background-color: white;
+    display: flex;
+    height:29px;
+    align-items: center;
+    justify-content: center;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+   }
+
+.footerlabel{
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
