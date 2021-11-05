@@ -1,5 +1,6 @@
 body{
+    margin: 0%;
     background-color:  #d1d1e3;
     min-height: 100vh;
     padding-bottom: 9vh;
-  }
+}

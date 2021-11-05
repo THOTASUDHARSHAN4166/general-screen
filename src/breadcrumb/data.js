@@ -13,7 +13,8 @@ const data = [ {
   text: "Product Selection",
   sublogo: 'Select your desired product',
   logo: <AiOutlineCheckCircle />,
-  active: true
+  active: true,
+  completed:false
 
 },
 {
@@ -22,7 +23,9 @@ const data = [ {
   text: "KYC",
   sublogo: 'Verify your identinty',
   logo: <AiOutlineCheckCircle />,
-  active: false
+  active: false,
+  completed:false
+
 
 },
 {
@@ -31,7 +34,8 @@ const data = [ {
   text: "Application",
   sublogo: 'Your personal and contact details',
   logo: <AiOutlineCheckCircle />,
-  active: false
+  active:false,
+  completed:false
 
 },
 {
@@ -40,7 +44,8 @@ const data = [ {
   text: "Funding",
   sublogo: 'Fund your account',
   logo: <AiOutlineCheckCircle />,
-  active: false
+  active: false,
+  completed:false
 
 },
 {
@@ -49,7 +54,8 @@ const data = [ {
   text: "Internet Banking",
   sublogo: 'Create your internet banking ',
   logo: <AiOutlineCheckCircle />,
-  active: false
+  active: false,
+  completed:false
 
 },
 {
@@ -58,7 +64,8 @@ const data = [ {
   text: "Done",
   sublogo: 'Your account is ready to use',
   logo: <AiOutlineCheckCircle />,
-  active: false
+  active: false,
+  completed:false
 
 }
 

@@ -1,0 +1,119 @@
+main {
+    display: flex;
+    margin-top: 1.5rem;
+    flex-direction: row;
+}
+
+.breadcrumb-heading {
+    margin-left: 1.25rem;
+}
+
+.breadcrumb-subheading {
+    padding-top: 0%;
+    margin-left: 1.25rem;
+    margin-bottom: 1.2rem;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.breadcrumb-division {
+    background-color: white;
+    margin-left: 2rem;
+    border-radius: 1.4rem;
+    width: 19rem;
+    padding-bottom: 1rem;
+    /* padding-left: 0%; */
+}
+
+.selection-division {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 4.1rem;
+}
+
+.activeSelection {
+    background-color: #8a37b0;
+}
+
+.icon {
+    height: 2.5rem;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+}
+
+.activeicon {
+    color: white;
+}
+
+.notactiveicon {
+    color: #4f5961;
+    opacity: 0.5;
+}
+
+.checklogo {
+    padding-right: 1rem;
+}
+
+.notactivecheck {
+    visibility: hidden;
+}
+
+.activecheck {
+    visibility: hidden;
+}
+
+.completedcheck {
+    visibility: visible;
+    color: #1bbf36;
+}
+
+.namedivision {
+    width: 21rem;
+    margin-left: 1.2rem;
+    ;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-content: center;
+    height: 2.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.notactivelabel {
+    color: #4f5961;
+    opacity: 0.6;
+}
+
+.activelabel {
+    color: white;
+}
+
+.completedlabel {
+    color: #1bbf36;
+}
+
+.sublabel {
+    margin-top: 0%;
+    font-size: 0.8rem;
+    /* width:20rem; */
+    font-weight: 400;
+}
+
+.products-screen {
+    background-color: white;
+    border-radius: 1.4rem;
+    width: 55rem;
+    margin-left: 1.7rem;
+}
+
+@media (max-width:359px) {
+    main {
+        flex-direction: column;
+    }
+}

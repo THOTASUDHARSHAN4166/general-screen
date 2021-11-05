@@ -1,10 +1,10 @@
 import React from 'react'
-import './Header.css'
-import image from '../icons/digibank.png';
+import styles from './Header.module.css'
+import image from '../assets/digibank.png';
 
 export default function Header() {
     return (
-        <div className='header'>
+        <div className={styles.header}>
             <img src={image} alt={image} />
         </div>
     )

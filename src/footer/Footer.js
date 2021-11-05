@@ -1,8 +1,8 @@
 import React from 'react'
-import './Footer.css'
+import styles from './Footer.module.css'
 export default function Footer() {
     return (
-        <div className='footer'>
+        <div className={styles.footer}>
             <h6 className='footerlabel'>Copyright@everydaydigibank.com</h6>
         </div>
     )
