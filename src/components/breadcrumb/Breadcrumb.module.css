@@ -6,12 +6,11 @@ main {
 
 .breadcrumb-heading {
     margin-left: 1.25rem;
+    margin-bottom: 0%;
 }
 
 .breadcrumb-subheading {
-    padding-top: 0%;
-    margin-left: 1.25rem;
-    margin-bottom: 1.2rem;
+    margin: 0.5rem auto 1.2rem 1.25rem;
     font-weight: lighter;
     font-family: sans-serif;
 }
@@ -22,7 +21,6 @@ main {
     border-radius: 1.4rem;
     width: 19rem;
     padding-bottom: 1rem;
-    /* padding-left: 0%; */
 }
 
 .selection-division {
@@ -52,6 +50,10 @@ main {
     opacity: 0.5;
 }
 
+.completedicon {
+    opacity: 0.7;
+}
+
 .checklogo {
     padding-right: 1rem;
 }
@@ -70,17 +72,19 @@ main {
 }
 
 .namedivision {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
     width: 21rem;
     margin-left: 1.2rem;
-    ;
 }
 
 .label {
-    display: flex;
-    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
     color: black;
     align-content: center;
-    height: 2.5rem;
     font-weight: 500;
     font-size: 1.1rem;
 }
@@ -94,14 +98,23 @@ main {
     color: white;
 }
 
+.notactivesublabel {
+    color: #4f5961;
+    opacity: 0.6;
+}
+
+.activesublabel {
+    color: white;
+}
+
 .completedlabel {
     color: #1bbf36;
 }
 
 .sublabel {
-    margin-top: 0%;
+    margin: 0%;
+    padding: 0%;
     font-size: 0.8rem;
-    /* width:20rem; */
     font-weight: 400;
 }
 

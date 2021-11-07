@@ -13,8 +13,8 @@ const data = [ {
   text: "Product Selection",
   sublogo: 'Select your desired product',
   logo: <AiOutlineCheckCircle />,
-  active: true,
-  completed:false
+  active: false,
+  completed:true
 
 },
 {
@@ -23,7 +23,7 @@ const data = [ {
   text: "KYC",
   sublogo: 'Verify your identinty',
   logo: <AiOutlineCheckCircle />,
-  active: false,
+  active: true,
   completed:false
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Header.module.css'
-import image from '../assets/digibank.png';
+import image from '../../assets/digibank.png';
 
 export default function Header() {
     return (

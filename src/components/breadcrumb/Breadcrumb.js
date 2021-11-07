@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './Data';
+import data from '../../constants/BreadcrumbData';
 import styles from './Breadcrumb.module.css'
 
 export default function Breadcrumb() {
@@ -17,7 +17,9 @@ export default function Breadcrumb() {
                                 return <div key={ id } className={ `${styles['selection-division']}  ${active && styles.activeSelection} `}>
                                     <label className={ `${styles.icon} ${!active ? completed ? styles.completedicon : styles.notactiveicon : styles.activeicon}`}>{ photo }</label>
                                     <div className={styles.namedivision}>
-                                        <label className={ `${styles.label}  ${!active ? completed ? styles.completedlabel : styles.notactivelabel : styles.activelabel}`}>{ text }<label className={styles.sublabel}>{ sublogo }</label></label></div>
+                                        <label className={ `${styles.label}  ${!active ? completed ? styles.completedlabel : styles.notactivelabel : styles.activelabel}`}>{ text }</label>
+                                        <label className={`${styles.sublabel} ${!active ? styles.notactivesublabel:styles.activesublabel}`}>{ sublogo }</label>
+                                    </div>
                                     <label className={` ${styles.checklogo} ${!active ? completed ? styles.completedcheck : styles.notactivecheck : styles.activecheck}` }>{ logo }</label>
                                 </div>
                             })
